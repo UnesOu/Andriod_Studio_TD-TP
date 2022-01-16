@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TD3</string>
+    <string name="button_de">Lance De</string>
+    <string name="input_face_de">Entrer nombre de face De</string>
+</resources>

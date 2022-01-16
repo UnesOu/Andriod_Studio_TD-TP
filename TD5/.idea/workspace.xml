@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bbbe246-e17a-4101-b9bb-0dcd36eaed93" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="ProjectId" id="1oB6g6ljHGxN8l5pt0BegLC70vE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TD6" />
+    <property name="project.structure.last.edited" value="SDK Location" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bbbe246-e17a-4101-b9bb-0dcd36eaed93" name="Default Changelist" comment="" />
+      <created>1612747744503</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612747744503</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="260" y="2" key="#Gradle" timestamp="1637675055798">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="260" y="2" key="#Gradle/0.0.1366.728@0.0.1366.728" timestamp="1637675055798" />
+    <state x="185" y="76" key="#PSD" timestamp="1637674675250">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="185" y="76" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1637674675250" />
+    <state x="122" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1637674385398">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="122" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1637674385398" />
+    <state x="448" y="85" key="FileChooserDialogImpl" timestamp="1637681031680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="448" y="85" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1637681031680" />
+    <state x="169" y="0" key="SettingsEditor" timestamp="1637680076580">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="169" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1637680076580" />
+  </component>
+</project>

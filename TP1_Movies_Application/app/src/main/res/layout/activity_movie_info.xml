@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieInfo"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imageInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="288dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageInfo"
+        android:layout_marginTop="20dp"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/movieTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/purple_200"
+                android:textSize="90px"
+                android:layout_marginTop="20dp"
+                android:text=""/>
+            <View
+                android:layout_margin="10dp"
+                android:id="@+id/first_divider"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/descriptionLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/purple_500"
+                android:textSize="60px"
+                android:layout_marginTop="20dp"
+
+                android:text="Description"/>
+
+            <TextView
+                android:id="@+id/movieDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="70px"
+                android:layout_marginTop="20dp"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/GenreLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/purple_500"
+                android:textSize="60px"
+                android:layout_marginTop="20dp"
+                android:text="Genres: "/>
+
+            <TextView
+                android:id="@+id/movieGenres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:textSize="60px"
+
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/releaseDateLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/purple_500"
+                android:textSize="60px"
+                android:layout_marginTop="20dp"
+                android:text="Release Date"/>
+
+
+            <TextView
+                android:id="@+id/releaseDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:textSize="60px"
+                android:text=""/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

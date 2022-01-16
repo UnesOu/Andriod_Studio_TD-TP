@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="90dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="18dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/movieName_txt"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/purple_200"
+        android:textSize="12sp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MovieImgView"
+        ></TextView>
+
+    <TextView
+        android:layout_width="49dp"
+        android:layout_height="16dp"
+        android:id="@+id/id_text"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:textColor="@color/purple_200"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/movieName_txt"
+        ></TextView>
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:id="@+id/MovieImgView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        ></ImageView>
+</androidx.constraintlayout.widget.ConstraintLayout>

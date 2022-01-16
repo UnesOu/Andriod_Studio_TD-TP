@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Les Appels réseau</string>
+    <string name="owner_repo">Owner repo</string>
+    <string name="default_nom">Owner</string>
+    <string name="default_repo">Répertoire</string>
+    <string name="default_issues">Issues</string>
+    <string name="default_nombre">5000</string>
+    <string name="default_commits">Commits</string>
+    <string name="default_language">Language</string>
+    <string name="default_java">Java</string>
+    <string name="chercher">Lancer la recherche</string>
+    <string name="un_repertoir">un repertoir</string>
+</resources>
